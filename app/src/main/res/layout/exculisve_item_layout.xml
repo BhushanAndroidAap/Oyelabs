@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_slider_mainActivity"
+        android:layout_width="160dp"
+        android:layout_height="248dp"
+        app:cardCornerRadius="18dp"
+        app:cardUseCompatPadding="true"
+        android:elevation="8dp"
+        android:outlineSpotShadowColor="@color/dark_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/product_imageView"
+                android:layout_width="99dp"
+                android:layout_height="79dp"
+                android:src="@drawable/banana"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:id="@+id/productTitle"
+                android:layout_width="137dp"
+                android:layout_height="18dp"
+                android:text="@string/best"
+                android:layout_marginTop="130dp"
+                android:layout_marginLeft="15dp"
+                android:lineHeight="18dp"
+                android:textSize="14dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:textColor="@color/header_black"/>
+
+        <TextView
+            android:id="@+id/productQuentity"
+            android:layout_width="137dp"
+            android:layout_height="18dp"
+            android:text="@string/best"
+            android:layout_marginTop="153.9dp"
+            android:layout_marginLeft="15dp"
+            android:lineHeight="18dp"
+            android:textSize="12dp"
+            android:fontFamily="@font/gilroy_medium"
+            android:textColor="@color/dark_gray"/>
+
+
+        <TextView
+            android:id="@+id/productprice"
+            android:layout_width="52.3dp"
+            android:layout_height="18dp"
+            android:text="@string/best"
+            android:layout_marginTop="195.59dp"
+            android:layout_marginLeft="15dp"
+            android:lineHeight="18dp"
+            android:textSize="14dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:textStyle="bold"
+            android:textColor="@color/header_black"/>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/add_cardView"
+        android:layout_width="45.6dp"
+        android:layout_height="45.6dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="183dp"
+        android:layout_gravity="right"
+        app:cardBackgroundColor="@color/selloll_green">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_plus_icon"
+            android:layout_gravity="center_horizontal|center_vertical"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

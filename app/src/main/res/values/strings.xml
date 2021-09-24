@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Oyelabs</string>
+    <string name="demo">Demo</string>
+    <string name="excloffeer">Exclusive Offer</string>
+    <string name="seeoll">See all</string>
+    <string name="groceries">Groceries</string>
+    <string name="best">Best Selling</string>
+</resources>
